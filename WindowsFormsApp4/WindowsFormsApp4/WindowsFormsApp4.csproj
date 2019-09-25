@@ -78,7 +78,6 @@
     <Compile Include="Ital.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="teszt.cs" />
     <EmbeddedResource Include="AruBevitelUrlap.resx">
       <DependentUpon>AruBevitelUrlap.cs</DependentUpon>
     </EmbeddedResource>
