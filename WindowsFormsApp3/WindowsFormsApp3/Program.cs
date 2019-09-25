@@ -14,7 +14,7 @@ namespace WindowsFormsApp3
         [STAThread]
         static void Main()
         {
-            //pls work
+            //pls work ASDDASAS
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
