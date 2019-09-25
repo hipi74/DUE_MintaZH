@@ -12,6 +12,7 @@ namespace WindowsFormsApp3
 {
     public partial class EladasUrlap : Form
     {
+        //teszt
         List<Termek> term;
 
         public EladasUrlap(List<Termek> t)
