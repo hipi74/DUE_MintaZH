@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,7 +12,6 @@ namespace WindowsFormsApp3
 {
     public partial class EladasUrlap : Form
     {
-        //teszt
         List<Termek> term;
 
         public EladasUrlap(List<Termek> t)
@@ -64,16 +63,12 @@ namespace WindowsFormsApp3
                 if (checkBox2.Checked)
                 {
                     it.AlkoholosE = true;
+                    MessageBox.Show("Ezt a terméket csak 18. életévét betöltött személy vásárolhatja meg!");
                 }
 
                 term.Add(it);
             }
 
-        }
-
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            
         }
     }
 }
