@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,7 +22,8 @@ namespace WindowsFormsApp4
 
         public override string ToString()
         {
-            return base.ToString() + Eteltipus.ToString();
+            // return base.ToString() + Eteltipus.ToString()
+            return "{0} ({1})", base.ToString(), Eteltipus.ToString();
         }
     }
 }
