@@ -75,5 +75,11 @@ namespace WindowsFormsApp3
         {
             
         }
+
+        private void EladasUrlap_Load(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }
